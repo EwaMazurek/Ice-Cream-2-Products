@@ -41,7 +41,7 @@ p {
   padding: 0;
   margin: 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 130px;
 }
 
@@ -51,17 +51,17 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   padding: 161px 40px 41px;
 }
 .product--icecream {
@@ -75,7 +75,7 @@ p {
   top: -114px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .product--coffee {
   background-color: #f0d1a5;
@@ -87,7 +87,7 @@ p {
   top: -114px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .product--milkshake {
   background-color: #c2e297;
@@ -99,7 +99,7 @@ p {
   top: -114px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .product__name {
@@ -145,11 +145,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   background: white;
@@ -185,14 +185,14 @@ p {
   }
   .products-list {
     -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
     row-gap: 0;
   }
   .product {
     padding: 152px 15px 40px;
     -ms-flex-preferred-size: calc((100% - 40px) / 3);
-        flex-basis: calc((100% - 40px) / 3);
+    flex-basis: calc((100% - 40px) / 3);
   }
   .product__description {
     line-height: 176%;
@@ -230,14 +230,14 @@ p {
   }
   .products-list {
     -webkit-column-gap: 27px;
-       -moz-column-gap: 27px;
-            column-gap: 27px;
+    -moz-column-gap: 27px;
+    column-gap: 27px;
     row-gap: 0;
   }
   .product {
     padding: 163px 44px 50px;
     -ms-flex-preferred-size: calc((100% - 54px) / 3);
-        flex-basis: calc((100% - 54px) / 3);
+    flex-basis: calc((100% - 54px) / 3);
     height: auto;
   }
   .product__name {
@@ -264,4 +264,4 @@ p {
     position: absolute;
     top: -210px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
