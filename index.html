@@ -25,12 +25,16 @@
           <ul class="products-list">
             <li class="product product--icecream">
               <h3 class="product__name">ICE CREAM <br /></h3>
-              <p class="product__description">
+              <p class="product__description mySlides">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et. dolore magna aliqua facilisis.
               </p>
+              <p class="product__description product__description--details mySlides">
+                Here are some products details noone really cares about. Our products are nothing
+                special, tho they forces us to tell you so.
+              </p>
 
-              <button class="product-button" type="button">
+              <button class="product-button" onclick="plusDivs(+1)" type="button">
                 <svg class="product-button__icon">
                   <use href="./images/icons.svg#icon-arrow-right"></use>
                 </svg>
@@ -73,5 +77,6 @@
     <footer class="footer"></footer>
     <section class="modal-buy-now"></section>
     <!--JS-->
+    <script src="./script.js"></script>
   </body>
 </html>

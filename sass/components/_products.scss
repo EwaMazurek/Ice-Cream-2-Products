@@ -122,6 +122,10 @@ p {
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-bottom: 30px;
+
+  &--details {
+    color: #d41443;
+  }
 }
 
 .product-button {
@@ -133,6 +137,14 @@ p {
   background: white;
   border: none;
   border-radius: 50%;
+
+  &:hover {
+    background-color: #d41443;
+    cursor: pointer;
+    .product-button__icon {
+      fill: white;
+    }
+  }
 }
 
 .product-button__icon {
