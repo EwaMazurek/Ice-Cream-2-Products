@@ -10,6 +10,7 @@ function myFunction(d, p, b) {
   } else {
     x.style.display = "none";
     y.style.display = "block";
-    m.style.backgroundImage = 'url("../images/test1.png")';
+    m.style.backgroundImage =
+      'url("https://ewamazurek.github.io/Ice-Cream-2-Products/images/test1.png")';
   }
 }
