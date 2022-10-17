@@ -100,6 +100,7 @@ p {
   position: relative;
   padding-bottom: 30px;
   line-height: 15px;
+  margin-bottom: 10px;
 
   &::after {
     content: "...";
@@ -114,6 +115,7 @@ p {
 
 .product__description {
   padding-top: 30px;
+  padding-bottom: 30px;
   font-family: "DM Sans";
   font-weight: 700;
   font-size: 14px;
@@ -124,7 +126,9 @@ p {
   margin-bottom: 30px;
 
   &--details {
+    position: relative;
     color: #d41443;
+    display: none;
   }
 }
 
@@ -243,6 +247,7 @@ p {
     &__description {
       font-size: 16px;
       line-height: 176%;
+
       margin-bottom: 62px;
     }
 
