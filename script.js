@@ -10,6 +10,6 @@ function myFunction(d, p, b) {
   } else {
     x.style.display = "none";
     y.style.display = "block";
-    m.style.backgroundImage = "url('../images/test.png')";
+    m.style.backgroundImage = 'url("../images/test1.png")';
   }
 }
